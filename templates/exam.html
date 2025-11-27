@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam - AI Career Advisor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/exam.css') }}">
+</head>
+<body>
+    <div class="exam-container">
+        <header class="exam-header">
+            <h1>AI Career Advisor Exam</h1>
+            <div id="timer" class="timer">Time: 00:00</div>
+        </header>
+
+        <main class="exam-content">
+            <div class="question-container">
+                <h2>Career Assessment Questions</h2>
+                <p class="exam-info">Please answer the following questions to help us guide your career path.</p>
+                
+                <!-- Loading Indicator -->
+                <div id="loading" class="loading" style="display: none;">
+                    <p>Generating questions...</p>
+                </div>
+                
+                <!-- Questions Container -->
+                <div id="questionsContainer">
+                    <!-- Questions will be dynamically inserted here -->
+                </div>
+                
+                <button id="submitExam" class="submit-btn">Submit Exam</button>
+            </div>
+        </main>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/exam.js') }}"></script>
+</body>
+</html>
