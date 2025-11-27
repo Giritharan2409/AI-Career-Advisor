@@ -1,3 +1,9 @@
-# Default ignored files
-/shelf/
-/workspace.xml
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv
