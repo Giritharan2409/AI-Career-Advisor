@@ -26,3 +26,11 @@ An intelligent career guidance platform powered by AI that helps users discover 
 - Chat with an AI advisor for career guidance
 
 The application uses Google's Gemini API for intelligent responses and Flask as the backend framework for robust server-side handling.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------### Target Users
+- Aspiring data analysts
+- Machine learning enthusiasts
+- Data science professionals
+- Career switchers interested in AI/tech fields
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
