@@ -153,3 +153,36 @@ python app.py
 The application will start at `http://localhost:5000`
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Usage Guide
+
+### 1. Home Page
+- Navigate to `http://localhost:5000`
+- Read about the platform features
+- Click "Start Your Exam Journey" to begin assessment
+
+### 2. Taking the Exam
+- Accept exam rules and conditions
+- Answer 15 AI-generated questions
+- Questions adapt based on your responses
+- Submit exam when complete
+
+### 3. View Results
+- See your assessment results
+- Get recommended career path
+- View career-specific guidance
+- Navigate to learning roadmap
+
+### 4. Learning Roadmap
+- View personalized learning path
+- Explore free certifications
+- Access YouTube tutorial recommendations
+- Discover recommended books
+- **Download as Excel**: Click "📥 Download Roadmap (Excel)" to save all resources
+
+### 5. Chat with AI Advisor
+- Click the chatbot icon (bottom-right)
+- Ask questions about AI careers, learning resources, roadmaps
+- Get instant AI-powered responses
+- Receive guidance for off-topic questions
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
