@@ -74,3 +74,82 @@ The application uses Google's Gemini API for intelligent responses and Flask as 
 - User-friendly navigation
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Technology Stack
+
+### Backend
+- **Framework**: Flask 3.0.0
+- **Language**: Python 3.x
+- **API Integration**: Google Gemini 2.5 Flash API
+- **HTTP Client**: requests library
+- **Excel Generation**: openpyxl 3.10.10
+- **Environment Management**: python-dotenv 1.0.0
+
+### Frontend
+- **Markup**: HTML5
+- **Styling**: Tailwind CSS (via CDN)
+- **Scripting**: Vanilla JavaScript (ES6+)
+- **Icons & Animations**: Custom SVG and CSS animations
+
+### Deployment & Infrastructure
+- **Web Server**: Flask development server (supports WSGI servers like Gunicorn for production)
+- **Environment**: Python virtual environment
+- **Port**: 5000 (default)
+
+---
+
+## Installation Instructions
+
+### Prerequisites
+- Python 3.8 or higher
+- pip (Python package manager)
+- Git (optional)
+- Google Gemini API key
+
+### Step 1: Clone or Download the Project
+```bash
+# If using git
+git clone <repository-url>
+cd AI\ Career\ Advisor
+
+# Or extract the project folder
+```
+
+### Step 2: Create Virtual Environment
+```bash
+# Windows
+python -m venv venv
+venv\Scripts\activate
+
+# macOS/Linux
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### Step 3: Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### Step 4: Configure Environment Variables
+Create a `.env` file in the project root:
+```
+GEMINI_API_KEY=your_api_key_here
+```
+
+Alternatively, set the environment variable:
+```bash
+# Windows (PowerShell)
+$env:GEMINI_API_KEY="your_api_key_here"
+
+# macOS/Linux
+export GEMINI_API_KEY="your_api_key_here"
+```
+
+### Step 5: Run the Application
+```bash
+python app.py
+```
+
+The application will start at `http://localhost:5000`
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
